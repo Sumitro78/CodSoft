@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 10px 0;
+    color: red;
+
+}
+.display input{
+    margin: 4px;
+    height: 50px;
+    width: 200px;
+    outline: 0;
+    background: transparent;
+    border: none;
+    color: white;
+    text-align: end;
+
+}
+.calculatore{
+    margin: 50px auto;
+    text-align: center;
+    background-color: black;
+    width: 250px;
+    border-radius: 20px;
+}
+.button-box button{
+    width: 35px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button-box .operatore{
+    color: red;
+    opacity: 1;
+}
+.button-box input:hover{
+    background-color: #ccc;
+}
+.button-box .equal{
+    background-color: orange;
+    outline: none;
+}
